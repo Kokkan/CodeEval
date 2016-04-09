@@ -35,8 +35,7 @@ public class Main {
             numbers[i] = Integer.parseInt(stringNumbers[i]);
         }
 
-        int sum = (stringNumbers.length > 1) ?
-                Integer.parseInt(stringNumbers[stringNumbers.length - 1]) : 0;
+        int sum = (stringNumbers.length > 1) ? Integer.parseInt(stringNumbers[stringNumbers.length - 1]) : 0;
 
         return new Candidate(numbers, sum);
 
